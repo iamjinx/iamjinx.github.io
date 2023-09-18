@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IamJinx - Resume</title>
-    <link rel="icon" href="./img/favicon.png" type="image/png">
-    <script src="./tailwind.config.js"></script>
+    <title>IamJinx - Progress website</title>
+    <link rel="icon" href="/img/favicon.png" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>window.onload = () => fetch('https://api.ipify.org?format=json').then(response => response.json()).then(data => document.getElementById('ip-address').textContent = data.ip).catch(error => (console.error('Error fetching IP address:', error), document.getElementById('ip-address').textContent = 'John Doe'));</script>
     <style>
@@ -35,13 +34,13 @@
 <body>
     <div class="relative min-h-screen">
         <video autoplay muted loop class="fixed inset-0 object-cover w-full h-full z-0">
-            <source src="./bgvideo.mp4" type="video/mp4">
+            <source src="/bgvideo.mp4" type="video/mp4">
         </video>
         <div class="absolute inset-0 bg-black opacity-60 z-10"></div>
         <div class="relative z-20 px-8 pt-10 font-normal text-white flex flex-col justify-center">
             <!-- main content here -->
             <div class="flex gap-3">
-                <img src="./img/me.jpg" alt="me" class="h-6 w-6 rounded-full mt-1">
+                <img src="/img/me.jpg" alt="me" class="h-6 w-6 rounded-full mt-1">
                 <h1 class="font-bold cursor-pointer text-xl"><span class="text-red-600">HELLO </span>BUDDY : <span id="ip-address"></span> 👋</h1>
             </div>
 
@@ -79,7 +78,7 @@
                 <h1 class="font-bold text-yellow-200 mb-3">MY PROJECTS</h1>
                 <section class="font-mono">
                     <h1 class="font-bold text-sky-400">CYBERTOOL</h1>
-                    <img src="./img/chkpwn2.jpg" alt="cybertool img" class="h-44 rounded-lg">
+                    <img src="/img/chkpwn2.jpg" alt="cybertool img" class="h-44 rounded-lg">
                     <section class="text-sm mb-4">
                         <li>It is a Tool to Generate Strong Passwords.</li>
                         <li>Use it to Convert Normal password to a Strong password.</li>
@@ -88,7 +87,7 @@
                     </section>
         
                     <h1 class="font-bold text-sky-400">FISHYMASK</h1>
-                    <img src="./img/demo.png" alt="cybertool img" class="h-48 rounded-lg">
+                    <img src="/img/demo.png" alt="cybertool img" class="h-48 rounded-lg">
                     <section class="text-sm mb-4">
                         <li>It is a Python Script to hide Phishing URL under a Legit URL.</li>
                         <li>This Script is inspired from MASKPHISH.</li>
@@ -97,7 +96,7 @@
                     </section>
         
                     <h1 class="font-bold text-sky-400">MOODIFY</h1>
-                    <img src="./img/moodify.png" alt="cybertool img" class="h-44 rounded-lg">
+                    <img src="/img/moodify.png" alt="cybertool img" class="h-44 rounded-lg">
                     <section class="text-sm mb-4">
                         <li>It is a website to stream soothing nature sounds for sleep and study.</li>
                         <li>It contains 6 different types atmospheric sounds.</li>
@@ -106,7 +105,7 @@
                     </section>
         
                     <h1 class="font-bold text-sky-400">LINK IN BIO</h1>
-                    <img src="./img/linkinbiopng.png" alt="cybertool img" class="h-44 rounded-lg">
+                    <img src="/img/linkinbiopng.png" alt="cybertool img" class="h-44 rounded-lg">
                     <section class="text-sm mb-4">
                         <li>It is a Link in Bio type website.</li>
                         <li>Website to organise all social links at one place.</li>
@@ -119,10 +118,10 @@
                 <h1 class="font-bold text-yellow-200 mb-3">SOME IMPORTANT LINKS</h1>
                 <section class="font-bold font-mono">
                     <div class="flex gap-4">
-                        <a href="https://github.com/iamjinx/" target="_blank"><button class="bg-slate-800 p-2 rounded-sm w-16 flex justify-center"><img src="./img/github.png" class="invert h-4" alt="Image"/></button></a>
-                        <a href="https://www.instagram.com/evilchildofgod/" target="_blank"><button class="bg-pink-600 p-2 rounded-sm w-16 flex justify-center"><img src="./img/insta.png" class="invert h-4" alt="Image"/></button></a>
-                        <a href="https://discord.com/users/iamjinx1/" target="_blank"><button class="bg-blue-600 p-2 rounded-sm w-16 flex justify-center"><img src="./img/discord.png" class="invert h-4" alt="Image"/></button></a>
-                        <a href="mailto:iamjinxop@gmail.com" target="_blank"><button class="bg-red-700 p-2 rounded-sm w-16 flex justify-center"><img src="./img/email.png" class="invert h-4" alt="Image"/></button></a>
+                        <a href="https://github.com/iamjinx/" target="_blank"><button class="bg-slate-800 p-2 rounded-sm w-16 flex justify-center"><img src="/img/github.png" class="invert h-4" alt="Image"/></button></a>
+                        <a href="https://www.instagram.com/evilchildofgod/" target="_blank"><button class="bg-pink-600 p-2 rounded-sm w-16 flex justify-center"><img src="/img/insta.png" class="invert h-4" alt="Image"/></button></a>
+                        <a href="https://discord.com/users/iamjinx1/" target="_blank"><button class="bg-blue-600 p-2 rounded-sm w-16 flex justify-center"><img src="/img/discord.png" class="invert h-4" alt="Image"/></button></a>
+                        <a href="mailto:iamjinxop@gmail.com" target="_blank"><button class="bg-red-700 p-2 rounded-sm w-16 flex justify-center"><img src="/img/email.png" class="invert h-4" alt="Image"/></button></a>
                     </div>
                 </section>
             </div>
